@@ -59,9 +59,8 @@ public class Main {
         Wednesday
          */
 
-        Scanner input3 = new Scanner(System.in);
-        System.out.println("Enter a number between 1 - 7 to generate for you the day: ");
-        int numOfDays = input3.nextInt();
+//        Scanner input3 = new Scanner(System.in);
+        int numOfDays = (int) (Math.random() * 7) + 1;
         switch (numOfDays){
             case 1:
                 System.out.println("Sunday");
